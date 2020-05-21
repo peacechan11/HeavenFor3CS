@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Heaven for 3CS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#95DEC6 ;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #A6F4DC;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #421223;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: red;
+}
+
+/* Style the content */
+.content {
+  background-color: #95DEC6;
+  padding: 10px;
+
+}
+
+/* Style the footer */
+.footer {
+background-color: #A6F4DC;
+padding: 10px;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:775px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="textBook/textBook_All.html">Text Books</a>
+  <a href="#">Power Point files</a>
+  <a href="#">Video Lessons</a>
+</div>
+<h3 align="Center">Welcome to Heaven for 3CS</h3>
+<div class="content">
+  <p>The purpose of this website is to support academic skills for Third Year computer science students from UCSY. UCSYers can download pdf file of text books from different sites and power point files and video lessons from <a href="http://moodle.ucsy.edu.mm">
+  Moodle site</a></p>
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/ss1.png" style="width:100%">
+  <div class="text">Text Books</div>
+</div>
+<div class="mySlides fade">
+  <img src="images/ss1.png" style="width:100%">
+  <div class="text">Power Point Files</div>
+</div>
+<div class="mySlides fade">
+  <img src="images/ss1.png" style="width:100%">
+  <div class="text">Video Lessons</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+<div class="footer">
+  <center><p>Developed by Peace Chan </p>
+    Contact:
+          <a href="https://www.facebook.com/ayechan.htunnaing.11" ><img src="images/facebook.png" height=40 widith=40></a>
+          <a href="https://www.instagram.com/aye_chan_htun_naing/" ><img src="images/instagram.png" height=40 widith=40></a>
+   </center>
+
+</div>
+
+</body>
+</html>

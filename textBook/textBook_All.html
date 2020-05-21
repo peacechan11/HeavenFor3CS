@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Textbook Collections</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #95DEC6;
+}
+h3{
+  color: white;
+}
+.footer {
+background-color: #A6F4DC;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+}
+ input[type="submit"]
+{
+
+  height: 40px;
+  background: #884A65;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #A6F4DC;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #421223;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: red;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: #85C7B0;
+  position: fixed;
+  height: 80%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #A6F4DC;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+   background-color: #A6F4D0;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;
+    font-size:11px;
+  }
+ 
+
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 380px) {
+  .prev, .next,.text {font-size: 11px}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Text Books</a>
+  <a href="#">Power Point files</a>
+  <a href="#">Video Lessons</a>
+</div>
+<br> <br>
+<h3 align="center">Text book collections</h3>
+<div class="sidebar">
+  <a class="active" href="#">All</a>
+  <a href="textBook_Eng.html">English</a>
+  <a href="textBook_01.html">CST-301</a>
+  <a href="textBook_02.html">CST-302</a>
+  <a href="textBook_03.html">CST-303</a>
+  <a href="textBook_04.html">CST-304</a>
+  <a href="textBook_06.html">CST-306</a>
+</div>
+
+<div class="content">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <h3 align="center"> All books</h3>
+    <table align="center" width="50%">
+        <tr>
+            <td><img src="../images/E1.jpg" height=125 width=150></td>
+            &nbsp;
+            <td><img src="../images/E2.jpeg" height=125 width=150></td>
+        </tr>
+        <tr>
+            <td>English Grammar for IELTS <br> (Both First Semester and Second Semseter)</td>
+            &nbsp;
+            <td>IELTS 11 <br> (Both First Semester and Second Semseter)</td>
+
+        </tr>
+        <tr>
+            <td> <a href="https://drive.google.com/uc?export=download&confirm=9wLm&id=0B42obC0zvaVuSS1iMmI5d2gyeDA&fbclid=IwAR254JLWazMRNCntDVX_gcczNGrJflpwYdsN-8XDScgNx62NYMziF84bA7w">
+              <input type="submit" name="Download" value="Download here" id="i1"></a>
+            </td>
+            &nbsp;
+            <td> <a href="https://drive.google.com/file/d/1fx2mkns1Jx8JS0nHi6WP0gKb0MnfBKzH/view?fbclid=IwAR1qYuPoTxb3REH6Ykncoakeo3Ck_AIRS8PTaE36UH-BJiA54hfSUaLW324"><input type="submit" name="Download" value="Download here" id="i2"></a></td>
+            &nbsp;
+
+        </tr>
+            <tr>
+            <td><img src="../images/OS.jpeg" height=125 width=150></td>
+            &nbsp;
+            <td><img src="../images/02.jpeg" height=125 width=150></td>
+            &nbsp;
+        </tr>
+        <tr>
+            <td>Operating System <br> (Second Semester)</td>
+             &nbsp;
+            <td>Advanced Engineering Mathematics <br> (Both First Semester and Second Semseter)</td>
+
+        </tr>
+        <tr>
+            <td> <a href="https://ucsy-my.sharepoint.com/:b:/g/personal/ayechanhtunnaing_ucsy_edu_mm/Ec0I53uc5fNOgMfnlY7o3wMB9Kqd2-zotmkN_UEC1aPrqA?e=rZjYnw">
+              <input type="submit" name="Download" value="Download here" id="i4"></a></td>
+            <td> <a href="https://drive.google.com/open?id=1GFtCCYthHDyzQzaAqUhdHdqQpSEoNWwN"><input type="submit" name="Download" value="Download here" id="i5"></a></td>
+        </tr>
+     </table>
+</div>
+<div class="mySlides fade">
+    <h3 align="center"> All books</h3>
+    <table align="center" width="50%">
+      <tr>
+                    <td><img src="../images/CO.jpeg" height=125 width=150></td>
+                    &nbsp;
+                    <td><img src="../images/ethics.jpeg" height=125 width=150></td>
+      </tr>
+      <tr>
+            <td>Structured Computer Organization <br> (First Semester)</td>
+             &nbsp;
+            <td>Ethics in Information Technology <br> (Second Semester)</td>
+      </tr>
+      <tr>
+                    <td> <a href="https://drive.google.com/open?id=1Gklnv-s8jIvi9Jhlv4XuxF9klNypHIb7">
+              <input type="submit" name="Download" value="Download here" id="i3"></a></td>
+              &nbsp;
+                    <td> <a href="https://drive.google.com/file/d/1qtcC5uxoxOmiGrtnXfqlKdQ0zzJafvns/view?fbclid=IwAR09vR_tIcGqM5VQAnx6cbjsjDEtRfu-hfaBRsZ_FX997P56sSZr7x-sKeU"><input type="submit" name="Download" value="Download here" id="i6"></a></td>
+
+      </tr>
+      <tr>
+          <td><img src="../images/dbms.jpeg" height=125 width=150></td>
+          &nbsp;
+          <td><img src="../images/cn.jpg" height=125 width=150></td>
+      </tr>
+      <tr>
+                    <td>Introduction to Database Systems<br> (Second Semester)</td>
+                         &nbsp;
+                    <td>Computer Networking <br> (Second Semseter)</td>
+      </tr>
+      <tr>
+                    <td> <a href="https://ucsy-my.sharepoint.com/:b:/g/personal/ayechanhtunnaing_ucsy_edu_mm/EWWCTgrTLJtGlOBZwY_BnZkBfbhxdHpxXndUO89a-zeg0Q?e=NcBBw5">
+              <input type="submit" name="Download" value="Download here" id="i9"></a></td>
+                    <td> <a href="https://ucsy-my.sharepoint.com/:b:/g/personal/ayechanhtunnaing_ucsy_edu_mm/EUmB_f3lTkVJuIOIZRtTFQcBlMT8iYiTFTuMYbna9Arvrg?e=yrHJK4">
+              <input type="submit" name="Download" value="Download here" id="i11"></a></td>
+
+        </tr>
+      </table>
+
+</div>
+<div class="mySlides fade">
+  <h3 align="center"> All books</h3>
+    <table align="center" width="50%">
+        <tr>
+            <td><img src="../images/pl.jpeg" height=125 width=150></td>
+            &nbsp;
+            <td><img src="../images/se.jpeg" height=125 width=150></td>
+        </tr>
+        <tr>
+            <td>Concepts of Programming Language <br> ( First Semester )</td>
+            &nbsp;
+            <td>Software Engineering  <br> (First Semseter)</td>
+
+
+        </tr>
+        <tr>
+            <td> <a href="https://drive.google.com/open?id=1VMBLxa17AgXyEUX-c8DqeWmps6o9uol-">
+              <input type="submit" name="Download" value="Download here" id="i7"></a>
+            </td>
+            &nbsp;
+            <td> <a href="https://drive.google.com/open?id=1kjmWe4vAGGw4ZFAg4MwEVtSq5cSswmzy"><input type="submit" name="Download" value="Download here" id="i8"></a></td>
+            &nbsp;
+ 
+        </tr>
+            <tr>
+            <td><img src="../images/dcom.jpeg" height=125 width=150></td>
+          
+        </tr>
+        <tr>
+            <td>Data and Computer Communications<br> (First Semester)</td>
+
+  
+        </tr>
+        <tr>
+            <td> <a href="https://drive.google.com/open?id=1ie41GgUesBtODRtlvExynMpvTig_zVpv">
+              <input type="submit" name="Download" value="Download here" id="i10"></a></td>
+                
+ 
+        </tr>
+     </table>
+</div>
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+</div>
+<script>
+     var btn1 = document.getElementById("i1");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn1.onclick = handler;
+btn1.onmouseover = handler;
+btn1.onmouseout = handler;
+
+    var btn2 = document.getElementById("i2");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn2.onclick = handler;
+btn2.onmouseover = handler;
+btn2.onmouseout = handler;
+
+   var btn3 = document.getElementById("i3");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn3.onclick = handler;
+btn3.onmouseover = handler;
+btn3.onmouseout = handler;
+
+    var btn4 = document.getElementById("i4");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn4.onclick = handler;
+btn4.onmouseover = handler;
+btn4.onmouseout = handler;
+    var btn5 = document.getElementById("i5");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn5.onclick = handler;
+btn5.onmouseover = handler;
+btn5.onmouseout = handler;
+    var btn6 = document.getElementById("i6");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn6.onclick = handler;
+btn6.onmouseover = handler;
+btn6.onmouseout = handler;
+   var btn7 = document.getElementById("i7");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn7.onclick = handler;
+btn7.onmouseover = handler;
+btn7.onmouseout = handler;
+    var btn8 = document.getElementById("i8");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn8.onclick = handler;
+btn8.onmouseover = handler;
+btn8.onmouseout = handler;
+    var btn9 = document.getElementById("i9");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn9.onclick = handler;
+btn9.onmouseover = handler;
+btn9.onmouseout = handler;
+   var btn10 = document.getElementById("i10");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn10.onclick = handler;
+btn10.onmouseover = handler;
+btn10.onmouseout = handler;
+    var btn11 = document.getElementById("i11");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn11.onclick = handler;
+btn11.onmouseover = handler;
+btn11.onmouseout = handler;
+</script>
+ <div class="footer">
+  <center><p>Developed by Peace Chan <br> Contact:  </p>
+          <a href="https://www.facebook.com/ayechan.htunnaing.11" ><img src="../images/facebook.png" height=40 widith=40></a>
+          <a href="https://www.instagram.com/aye_chan_htun_naing/" ><img src="../images/instagram.png" height=40 widith=40></a>
+   </center>
+
+</div>
+</body>
+</html>

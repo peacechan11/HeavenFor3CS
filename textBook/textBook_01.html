@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Textbook Collections</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #95DEC6;
+}
+h3{
+  color: white;
+}
+.footer {
+background-color: #A6F4DC;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+}
+ input[type="submit"]
+{
+
+  height: 40px;
+  background: #884A65;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #A6F4DC;
+  position: fixed;
+  width: 100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #421223;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: red;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: #85C7B0;
+  position: fixed;
+  height: 80%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #A6F4DC;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+   background-color: #A6F4D0;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Text Books</a>
+  <a href="#">Power Point files</a>
+  <a href="#">Video Lessons</a>
+</div>
+<br> <br>
+<h3 align="center">Text book collections</h3>
+<div class="sidebar">
+  <a href="textBook_All.html">All</a>
+  <a href="textBook_Eng.html">English</a>
+  <a class="active" href="textBook_01.html">CST-301</a>
+  <a href="textBook_02.html">CST-302</a>
+  <a href="textBook_03.html">CST-303</a>
+  <a href="textBook_04.html">CST-304</a>
+  <a href="textBook_06.html">CST-306</a>
+</div>
+
+<div class="content">
+ <h3 align="center"> CST-301 books</h3>
+    <table align="center" width="50%">
+        <tr>
+            <td><img src="../images/CO.jpeg" height=175 width=175></td>
+            &nbsp;
+            <td><img src="../images/OS.jpeg" height=175 width=175></td>
+
+        </tr>
+        <tr>
+             <td>Structured Computer Organization <br> (First Semester)</td>
+            &nbsp;
+            <td>Operating System <br> (Second Semester)</td>
+     
+        </tr>
+        <tr>
+            <td> <a href="https://drive.google.com/open?id=1Gklnv-s8jIvi9Jhlv4XuxF9klNypHIb7">
+              <input type="submit" name="Download" value="Download here" id="010"></a></td>
+            &nbsp;
+                       <td> <a href="https://ucsy-my.sharepoint.com/:b:/g/personal/ayechanhtunnaing_ucsy_edu_mm/Ec0I53uc5fNOgMfnlY7o3wMB9Kqd2-zotmkN_UEC1aPrqA?e=rZjYnw">
+              <input type="submit" name="Download" value="Download here" id="011"></a></td>
+
+        </tr>
+ 
+     </table>
+</div>
+<script type="text/javascript">
+     var btn1 = document.getElementById("010");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn1.onclick = handler;
+btn1.onmouseover = handler;
+btn1.onmouseout = handler;
+
+    var btn2 = document.getElementById("011");
+
+    var handler = function(event){
+switch(event.type){
+case "mouseover":event.target.style.backgroundColor = "#78E88E";
+    break;
+
+case "mouseout":event.target.style.backgroundColor = "";
+    break;                        
+      }
+        };
+
+btn2.onclick = handler;
+btn2.onmouseover = handler;
+btn2.onmouseout = handler;
+</script>
+ <div class="footer">
+  <center><p>Developed by Peace Chan <br> Contact:  </p>
+          <a href="https://www.facebook.com/ayechan.htunnaing.11" ><img src="../images/facebook.png" height=40 widith=40></a>
+          <a href="https://www.instagram.com/aye_chan_htun_naing/" ><img src="../images/instagram.png" height=40 widith=40></a>
+   </center>
+
+</div>
+</body>
+</html>
