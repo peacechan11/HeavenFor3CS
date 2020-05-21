@@ -18,15 +18,17 @@ position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding:7px;
+
  
 }
  input[type="submit"]
 {
 
-  height: 40px;
+  height: 35px;
   background: #884A65;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 20px;
 }
 .topnav {
@@ -54,7 +56,7 @@ position: fixed;
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 300px;
   background-color: #85C7B0;
   position: fixed;
   height: 80%;
@@ -80,8 +82,8 @@ position: fixed;
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding: 1px 9px;
+  height: 1200px;
 }
 
 @media screen and (max-width: 700px) {
@@ -104,82 +106,6 @@ div.content {
     float: none;
   }
 }
-.mySlides {display: none}
-
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 380px) {
-  .prev, .next,.text {font-size: 11px}
 </style>
 </head>
 <body>
@@ -190,7 +116,6 @@ div.content {
   <a href="#">Video Lessons</a>
 </div>
 <br> <br>
-<h3 align="center">Text book collections</h3>
 <div class="sidebar">
   <a class="active" href="#">All</a>
   <a href="textBook_Eng.html">English</a>
@@ -202,21 +127,18 @@ div.content {
 </div>
 
 <div class="content">
-<div class="slideshow-container">
 
-<div class="mySlides fade">
   <h3 align="center"> All books</h3>
-    <table align="center" width="50%">
+    <table align="center" width="50%" height="100%">
         <tr>
-            <td><img src="../images/E1.jpg" height=125 width=150></td>
+            <td><img src="../images/E1.jpg" height=100 width=150></td>
             &nbsp;
-            <td><img src="../images/E2.jpeg" height=125 width=150></td>
+            <td><img src="../images/E2.jpeg" height=100 width=150></td>
         </tr>
         <tr>
             <td>English Grammar for IELTS <br> (Both First Semester and Second Semseter)</td>
             &nbsp;
             <td>IELTS 11 <br> (Both First Semester and Second Semseter)</td>
-
         </tr>
         <tr>
             <td> <a href="https://drive.google.com/uc?export=download&confirm=9wLm&id=0B42obC0zvaVuSS1iMmI5d2gyeDA&fbclid=IwAR254JLWazMRNCntDVX_gcczNGrJflpwYdsN-8XDScgNx62NYMziF84bA7w">
@@ -228,9 +150,9 @@ div.content {
 
         </tr>
             <tr>
-            <td><img src="../images/OS.jpeg" height=125 width=150></td>
+            <td><img src="../images/OS.jpeg" height=100 width=150></td>
             &nbsp;
-            <td><img src="../images/02.jpeg" height=125 width=150></td>
+            <td><img src="../images/02.jpeg" height=100 width=150></td>
             &nbsp;
         </tr>
         <tr>
@@ -244,11 +166,7 @@ div.content {
               <input type="submit" name="Download" value="Download here" id="i4"></a></td>
             <td> <a href="https://drive.google.com/open?id=1GFtCCYthHDyzQzaAqUhdHdqQpSEoNWwN"><input type="submit" name="Download" value="Download here" id="i5"></a></td>
         </tr>
-     </table>
-</div>
-<div class="mySlides fade">
-    <h3 align="center"> All books</h3>
-    <table align="center" width="50%">
+ 
       <tr>
                     <td><img src="../images/CO.jpeg" height=125 width=150></td>
                     &nbsp;
@@ -267,9 +185,9 @@ div.content {
 
       </tr>
       <tr>
-          <td><img src="../images/dbms.jpeg" height=125 width=150></td>
+          <td><img src="../images/dbms.jpeg" height=100 width=150></td>
           &nbsp;
-          <td><img src="../images/cn.jpg" height=125 width=150></td>
+          <td><img src="../images/cn.jpg" height=100 width=150></td>
       </tr>
       <tr>
                     <td>Introduction to Database Systems<br> (Second Semester)</td>
@@ -283,16 +201,11 @@ div.content {
               <input type="submit" name="Download" value="Download here" id="i11"></a></td>
 
         </tr>
-      </table>
 
-</div>
-<div class="mySlides fade">
-  <h3 align="center"> All books</h3>
-    <table align="center" width="50%">
         <tr>
-            <td><img src="../images/pl.jpeg" height=125 width=150></td>
+            <td><img src="../images/pl.jpeg" height=100 width=150></td>
             &nbsp;
-            <td><img src="../images/se.jpeg" height=125 width=150></td>
+            <td><img src="../images/se.jpeg" height=100 width=150></td>
         </tr>
         <tr>
             <td>Concepts of Programming Language <br> ( First Semester )</td>
@@ -311,7 +224,7 @@ div.content {
  
         </tr>
             <tr>
-            <td><img src="../images/dcom.jpeg" height=125 width=150></td>
+            <td><img src="../images/dcom.jpeg" height=100 width=150></td>
           
         </tr>
         <tr>
@@ -323,7 +236,6 @@ div.content {
             <td> <a href="https://drive.google.com/open?id=1ie41GgUesBtODRtlvExynMpvTig_zVpv">
               <input type="submit" name="Download" value="Download here" id="i10"></a></td>
                 
- 
         </tr>
      </table>
 </div>
@@ -331,19 +243,7 @@ div.content {
 
 
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-
-
-</div>
 
 <script>
 var slideIndex = 1;
@@ -545,12 +445,14 @@ btn11.onclick = handler;
 btn11.onmouseover = handler;
 btn11.onmouseout = handler;
 </script>
+<br>
+<br>
  <div class="footer">
-  <center><p>Developed by Peace Chan <br> Contact:  </p>
-          <a href="https://www.facebook.com/ayechan.htunnaing.11" ><img src="../images/facebook.png" height=40 widith=40></a>
-          <a href="https://www.instagram.com/aye_chan_htun_naing/" ><img src="../images/instagram.png" height=40 widith=40></a>
+  <center><p>Developed by Peace Chan <br> Contact:</p>
+    
+          <a href="https://www.facebook.com/ayechan.htunnaing.11" ><img src="../images/facebook.png" height=35 widith=35></a>
+          <a href="https://www.instagram.com/aye_chan_htun_naing/" ><img src="../images/instagram.png" height=35 widith=35></a>
    </center>
-
 </div>
 </body>
 </html>
